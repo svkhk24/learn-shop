@@ -30,7 +30,7 @@ DB_PORT=3306
 DB_DATABASE=shop
 DB_USERNAME=postgres
 ```
-* **DB_PASSWORD=inbox**
+DB_PASSWORD=inbox
 
 **Run Migrations & Seeders**
 ```shell

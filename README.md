@@ -24,14 +24,13 @@ php artisan key:generate
 ```
 Open the .env file and set your database
 ```shell
-DB_CONNECTION=mysql
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_PORT=pgsql
 DB_DATABASE=shop
 DB_USERNAME=postgres
-```
 DB_PASSWORD=inbox
-
+```
 **Run Migrations & Seeders**
 ```shell
 php artisan migrate --seed

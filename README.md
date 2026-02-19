@@ -31,6 +31,7 @@ DB_DATABASE=shop
 DB_USERNAME=postgres
 ```
 * **DB_PASSWORD=inbox**
+
 **Run Migrations & Seeders**
 ```shell
 php artisan migrate --seed

@@ -10,8 +10,10 @@
 ## Installation
 **Package**: node_modules
 ```shell
-    npm install
-    npm run dev
+npm install
+npm run dev
 ```
 **Package**: vendor
+```shell
 composer install
+```

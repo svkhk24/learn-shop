@@ -29,13 +29,13 @@ DB_HOST=127.0.0.1
 DB_PORT=pgsql
 DB_DATABASE=shop
 DB_USERNAME=postgres
-DB_PASSWORD=inbox
+DB_PASSWORD=
 ```
 **Run Migrations & Seeders**
 ```shell
 php artisan migrate --seed
 ```
-* **Start server**
+**Start server**
 ```shell
 php artisan serve
 ```

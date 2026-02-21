@@ -13,7 +13,7 @@
             <ul class="hidden md:flex gap-4 font-medium">
                 <li><a href="#" class="hover:text-blue-500">Trang chủ</a></li>
                 <li><a href="#" class="hover:text-blue-500">Sản phẩm</a></li>
-                <li><a href="#" class="hover:text-blue-500">Tin tức</a></li>
+                <li><a href="#" class="hover:text-blue-500">Giỏ hàng</a></li>
                 <li><a href="#" class="hover:text-blue-500">Liên hệ</a></li>
             </ul>
         </div>
@@ -23,14 +23,14 @@
             @guest
                 <a href="{{ route('login') }}"
                     class="btn-login text-sm
-                        hover:bg-[#d4bfbf29] font-semibold"
+                        hover:bg-[#d4bfbf29] font-semibold rounded-md cursor-pointer px-4 py-2"
                     >
                         Login
                     </a>
                 <a href="{{ route('register') }}"
-                    class="bg-gray-700 text-sm text-white
+                    class="bg-[#d32f2f] text-sm text-white
                             px-4 py-2 rounded font-[Arial]
-                            hover:bg-[#7a7979] font-semibold"
+                            hover:bg-[#af3e3e] font-semibold"
                         >
                             Register
                         </a>

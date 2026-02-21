@@ -4,7 +4,6 @@
 
 @layer components {
     .btn-login {
-        @apply font-medium rounded-md cursor-pointer px-4 py-2;
 
         /*css riêng*/
         background-color: var(--variant-outlinedBg);

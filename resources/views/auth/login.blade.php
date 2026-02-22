@@ -1,6 +1,6 @@
 <x-guest-layout>
-    <link rel="icon" type="image/png" href="{{ asset('laravel.png') }}">
-    <x-slot name="title">Đăng Nhập</x-slot>
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.jpg') }}">
+    <x-slot name="title"></x-slot>
 
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />

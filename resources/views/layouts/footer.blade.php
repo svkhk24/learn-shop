@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
             <img src="{{ asset('images/logo.jpg') }}" alt="Logo" class="h-12 mb-4">
-            <h1 class="font-semibold text-[16px]">ONLINE-SHOPVN</h1>
+            <h1 class="font-semibold text-[16px]">ONLINE-SHOP</h1>
             <p class="text-sm leading-relaxed">
                 Chúng tôi chuyên cung cấp các sản phẩm chất lượng cao với giá cả hợp lý.
                 Cam kết chính hãng 100% và giao hàng toàn quốc.

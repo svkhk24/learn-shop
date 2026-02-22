@@ -20,7 +20,19 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth', 'verified', 'admin'])->name('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get('/product', function () {
+    return view('product');
+})->middleware(['auth', 'verified'])->name('product');
+
+Route::get('/user', function () {
+    return view('user');
+})->middleware(['auth', 'verified'])->name('user');
+
+Route::get('/category', function () {
+    return view('category');
+})->middleware(['auth', 'verified'])->name('category');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

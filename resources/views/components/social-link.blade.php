@@ -1,12 +1,13 @@
+@section('')
 <div class="relative bg-black text-white text-sm">
     <div class="max-w-8xl mx-auto px-6 py-2 flex items-center justify-between">
 
         <!-- Left: Social Icons -->
         <div class="flex items-center space-x-4">
-            <a href="#" class="hover:text-white">
-                <i class="fab fa-twitter"></i>
+            <a href="https://x.com/" target="blank" class="hover:text-white">
+                <i class="fa-brands fa-x-twitter"></i>
             </a>
-            <a href="#" class="hover:text-gray-300">
+            <a href="https://www.youtube.com/" target="blank" class="hover:text-gray-300">
                 <i class="fa-brands fa-youtube"></i>
             </a>
         </div>

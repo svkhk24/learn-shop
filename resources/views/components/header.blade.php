@@ -1,4 +1,5 @@
-<header class="bg-white shadow">
+<x-social-link />
+<header class="bg-white border-b">
     <div class="max-w-8xl mx-auto flex items-center justify-between h-16 px-6">
 
         {{-- Logo + Menu --}}
@@ -6,15 +7,15 @@
 
             {{-- Logo --}}
             <a href=" {{ route('home') }}" class="focus:outline-none focus:ring-0" >
-                <img src="{{ asset('images/logo.jpg') }}" alt="Logo" class="h-16 object-contain">
+                <img src="{{ asset('images/1_1_180x.avif') }}" alt="Logo" class="h-16 object-contain">
             </a>
 
             {{-- Menu --}}
-            <ul class="hidden md:flex gap-4 font-medium">
-                <li><a href="#" class="hover:text-blue-500">Trang chủ</a></li>
-                <li><a href="#" class="hover:text-blue-500">Sản phẩm</a></li>
-                <li><a href="#" class="hover:text-blue-500">Giỏ hàng</a></li>
-                <li><a href="#" class="hover:text-blue-500">Liên hệ</a></li>
+            <ul class="hidden md:flex gap-4 font-semibold">
+                <li><a href="#" class="text-gray-500 hover:text-gray-700">Trang chủ</a></li>
+                <li><a href="#" class="text-gray-500 hover:text-gray-700">Sản phẩm</a></li>
+                <li><a href="#" class="text-gray-500 hover:text-gray-700">Giỏ hàng</a></li>
+                <li><a href="#" class="text-gray-500 hover:text-gray-700">Liên hệ</a></li>
             </ul>
         </div>
 

@@ -23,11 +23,10 @@
         <div class="flex gap-2 items-center">
             @guest
                 <a href="{{ route('login') }}"
-                    class="btn-login text-sm
-                        hover:bg-[#d4bfbf29] font-semibold rounded-md cursor-pointer px-4 py-2">Login</a>
+                    class="cursor-pointer px-4 py-2 text-center"><i class="fa-solid fa-user"></i></a>
                 <a href="{{ route('register') }}"
-                    class="bg-[#d32f2f] text-sm text-white px-4 py-2 rounded font-[Arial]
-                        hover:bg-[#af3e3e] font-semibold">Register</a>
+                    class="bg-[#4a3131] text-sm text-white px-4 py-2 rounded font-[Arial]
+                        hover:bg-[#5b4040] font-semibold">Sign up</a>
             @endguest
 
             @auth

@@ -15,7 +15,7 @@
         <!-- Center: Brand -->
         <div class="absolute left-1/2 -translate-x-1/2">
             <a href="/" class="tracking-wide hover:text-gray-300">
-                Unitech Official Website
+                Unitree Official Website
             </a>
         </div>
 

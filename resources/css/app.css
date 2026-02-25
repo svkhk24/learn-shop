@@ -2,21 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    .btn-login {
 
-        /*css riêng*/
-        background-color: var(--variant-outlinedBg);
-        color: var(--variant-outlinedColor);
-        font-family: Roboto, Helvetica, Arial, sans-serif;
-        --variant-textColor: #d32f2f;
-        --variant-outlinedColor: #d32f2f;
-        --variant-outlinedBorder: rgba(113, 107, 107, 0.5);
-        --variant-containedColor: #fff;
-        --variant-containedBg: #d32f2f;
-        border-width: 1px;
-        border-style: solid;
-        border-image: initial;
-        border-color: var(--variant-outlinedBorder, currentColor);
-    }
-}

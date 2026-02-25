@@ -30,15 +30,15 @@
             <h3 class="text-black font-bold mb-4 text-lg">Contact Us</h3>
             <ul class="space-y-2 text-sm">
                 <li>Email: sales_uniglobal@unitech.com</li>
+                <li>Business Name: Unitee Web Online</li>
                 <li>Address: 143 Nguyễn Lương Bằng, Đà Nẵng</li>
-                <li>Business Name: Unitech Web Online</li>
                 <li>Phone: +84992345678 Fanpage Available(Mon–Fri, 10:00–17:00 (UTC+8))</li>
             </ul>
         </div>
     </div>
     {{-- Bottom --}}
     <div class="border-t-[2px] max-w-8xl mx-auto px-6 text-[12px] py-4">
-        © {{ date('Y') }} Unitech.vn -
+        © {{ date('Y') }} Unitree.vn -
         Sản phẩm uy tín chất lượng cao
     </div>
 </footer>

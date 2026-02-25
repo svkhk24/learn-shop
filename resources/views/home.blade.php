@@ -1,3 +1,3 @@
 @extends('layouts.layout')
-@section('title', 'Online Shop - Chất riêng của bạn')
+@section('title', 'Unitree')
 @yield('content')

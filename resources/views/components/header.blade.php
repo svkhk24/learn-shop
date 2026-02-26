@@ -25,8 +25,8 @@
                 <a href="{{ route('login') }}"
                     class="cursor-pointer px-4 py-2 text-center"><i class="fa-solid fa-user"></i></a>
                 <a href="{{ route('register') }}"
-                    class="bg-[#4a3131] text-sm text-white px-4 py-2 rounded font-[Arial]
-                        hover:bg-[#5b4040] font-semibold">Sign up</a>
+                    class="bg-[#291c1c] text-sm text-white px-4 py-2 rounded font-[Arial]
+                        hover:bg-[#464343] font-semibold">Sign up</a>
             @endguest
 
             @auth

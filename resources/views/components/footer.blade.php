@@ -1,8 +1,8 @@
 <footer class="bg-gray-50 text-gray-600 mt-16">
     <div class="max-w-8xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         <div>
-            <img src="{{ asset('images/1_1_180x.avif') }}" alt="Logo" class="h-16 mb-4">
-            <h1 class="font-semibold text-[16px]">Unitech</h1>
+            <img src="{{ asset('images/1_1_180x.avif') }}" alt="Logo" class="h-12 mb-4">
+            <h1 class="font-semibold text-[16px]">Unitree</h1>
             <p class="text-sm leading-relaxed">
                 Chúng tôi chuyên cung cấp các sản phẩm chất lượng cao với giá cả hợp lý.
                 Cam kết chính hãng 100% và giao hàng toàn quốc.
@@ -35,6 +35,7 @@
                 <li>Phone: +84992345678 Fanpage Available(Mon–Fri, 10:00–17:00 (UTC+8))</li>
             </ul>
         </div>
+
     </div>
     {{-- Bottom --}}
     <div class="border-t-[2px] max-w-8xl mx-auto px-6 text-[12px] py-4">

@@ -1,6 +1,6 @@
 <x-guest-layout>
-    <link rel="icon" type="image/png" href="{{ asset('images/logo.jpg') }}">
-    <x-slot name="title"></x-slot>
+    <link rel="icon" type="image/png" href="{{ asset('images/id--6Da3AO_logos.png') }}">
+    <x-slot name="title">Đăng Nhập</x-slot>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 

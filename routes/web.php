@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VNPayController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,9 +19,11 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+
+//Route vào trang admin
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->middleware(['auth', 'admin'])->name('dashboard');
 
 Route::get('/product', function () {
     return view('products.product');
@@ -34,10 +37,13 @@ Route::get('/category', function () {
     return view('category');
 })->middleware(['auth', 'verified'])->name('category');
 
-Route::middleware('auth')->group(function () {
+Route::middleware('auth', 'admin')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+// Cổng thanh toán VNPay
+Route::post('/vn-payment', [VNPayController::class, 'vnpayment']);
 
 require __DIR__.'/auth.php';

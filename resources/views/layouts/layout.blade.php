@@ -11,7 +11,7 @@
     <title>@yield('title')</title>
 </head>
 <body class="flex flex-col min-h-screen">
-
+    @include('components.social-link')
     @include('components.header')
 
     {{-- Nội dung chính --}}

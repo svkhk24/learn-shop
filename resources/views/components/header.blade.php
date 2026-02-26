@@ -1,4 +1,3 @@
-<x-social-link />
 <header class="bg-white border-b">
     <div class="max-w-8xl mx-auto flex items-center justify-between h-16 px-6">
 

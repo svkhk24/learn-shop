@@ -1,4 +1,3 @@
-@section('')
 <div class="relative bg-black text-white text-sm">
     <div class="max-w-8xl mx-auto px-6 py-2 flex items-center justify-between">
 
@@ -27,26 +26,6 @@
             </a>
 
             <!-- Dropdown -->
-            <div class="relative group">
-                <button class="flex items-center space-x-1 hover:text-gray-300">
-                    <span>Vietnam (USD $)</span>
-                    <i class="fas fa-chevron-down text-xs"></i>
-                </button>
-
-                <div class="absolute right-0 mt-3 w-48 bg-zinc-900 border border-zinc-700
-                            opacity-0 invisible group-hover:opacity-100 group-hover:visible
-                            transition duration-200">
-                    <a href="#" class="block px-4 py-2 hover:bg-zinc-800">
-                        Vietnam (USD $)
-                    </a>
-                    <a href="#" class="block px-4 py-2 hover:bg-zinc-800">
-                        USA (USD $)
-                    </a>
-                    <a href="#" class="block px-4 py-2 hover:bg-zinc-800">
-                        Japan (JPY ¥)
-                    </a>
-                </div>
-            </div>
 
         </div>
     </div>

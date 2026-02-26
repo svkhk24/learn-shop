@@ -29,8 +29,8 @@
         <div>
             <h3 class="text-black font-bold mb-4 text-lg">Contact Us</h3>
             <ul class="space-y-2 text-sm">
-                <li>Email: sales_uniglobal@unitech.com</li>
-                <li>Business Name: Unitee Web Online</li>
+                <li>Email: sales_uniglobal@unitree.com</li>
+                <li>Business Name: Unitree Web Online</li>
                 <li>Address: 143 Nguyễn Lương Bằng, Đà Nẵng</li>
                 <li>Phone: +84992345678 Fanpage Available(Mon–Fri, 10:00–17:00 (UTC+8))</li>
             </ul>

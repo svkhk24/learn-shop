@@ -46,4 +46,4 @@ Route::middleware('auth', 'admin')->group(function () {
 // Cổng thanh toán VNPay
 Route::post('/vn-payment', [VNPayController::class, 'vnpayment']);
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

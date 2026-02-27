@@ -1,4 +1,4 @@
-<header class="bg-white border-b">
+<header class="bg-white border-b sticky top-0 z-50">
     <div class="max-w-8xl mx-auto flex items-center justify-between h-16 px-6">
 
         {{-- Logo + Menu --}}
@@ -22,7 +22,7 @@
         <div class="flex gap-2 items-center">
             @guest
                 <a href="{{ route('login') }}"
-                    class="cursor-pointer px-4 py-2 text-center"><i class="fa-solid fa-user"></i></a>
+                    class="cursor-pointer px-4 py-2 text-center">Sign in</i></a>
                 <a href="{{ route('register') }}"
                     class="bg-[#291c1c] text-sm text-white px-4 py-2 rounded font-[Arial]
                         hover:bg-[#464343] font-semibold">Sign up</a>

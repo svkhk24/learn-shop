@@ -13,6 +13,8 @@
 <body class="flex flex-col min-h-screen">
     @include('components.social-link')
     @include('components.header')
+    @include('components.banner')
+    
 
     {{-- Nội dung chính --}}
     <main class="flex-grow">
